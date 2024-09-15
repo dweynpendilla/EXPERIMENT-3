@@ -3,16 +3,16 @@
 Experiment 3 focuses on the application of the Pands Library. This experiment aims to identify and apply different codes and functions in creating a Python program using a Pandas Library.
 
 ### This experiment is comprised of 2 problems:
-(1) NORMALIZATION PROBLEM - where a 5x5 ndarray with random elements is stored to variable X, and this ndarray is normalized.
+(1) PROBLEM 1 - where I used the file "cars.csv" and uploaded its data into a data frame using pandas, and got the first and last 5 rows.
 
-(2) DIVISIBLE BY 3 PROBLEM - where the SQUARES of the first 100 positive integers are the elements of a 10x10 ndarray, and from this ndarray, all elements divisible by 3 are saved.
+(2) PROBLEM 2 - where I used the same data fram from problem 1 (cars) and performed the operations subsetting, slicing, and indexing
 
 ## ********************* Coding Process ✏️ *********************
- *For Problem 1: Normalization Problem,*
+ *For Problem 1,*
 
--- > The "np.random.random((x,y))" function is used and stored to variable x to generate the 5x5 random element ndarray.
+-- > First, I uploaded the data of the "cars.csv" file into the data frame "cars"
 
--- > Once the ndarray is generated and stored to "x", the next step is to get the MEAN and STANARD DEVIATION of the ndarray. That can be done by using the "x.mean()" and "x.std()" functions, which are then stored to y and z, respectively.
+-- > I then got the first and last 5 rows of the data frame using the functions "cars.head()" and "cars.tail()"
 
 -- > The final step is to normalize the ndarray by using the formula = x - Mean / Standard Deviation. Coding-wise, that will be [(x-y)/z] and that will be stored as "normx". 
 
